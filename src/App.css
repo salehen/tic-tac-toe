@@ -32,7 +32,73 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  border: 2px solid darkblue;
+  display: inline-block;
+  margin-right: 5px;
+  line-height: 50px;
+  color: red;
+  font-weight: bolder;
+}
+
+.button:hover {
+  border: 2px solid green;
+  transform: rotate(360deg);
+  transition-duration: .7s;
+
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.win {
+  color: green;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.game-board {
+  width: 50%;
+  position: relative;
+  float: left;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.fr{
+  float: right;
+}
+
+.game-info {
+  width: 50%;
+  position: relative;
+  float: right;
+  text-align: left;
+}
+
+.status{
+  margin-left: 20px;
+  min-height: 35px;
+}
+
+.move-btn{
+  min-width: 150px;
+  padding: 5px;
+  margin: 2px;
 }
