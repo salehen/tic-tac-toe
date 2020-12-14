@@ -38,7 +38,7 @@
   }
 }
 
-.button {
+.gameButton {
   width: 50px;
   height: 50px;
   padding: 5px;
@@ -50,11 +50,14 @@
   font-weight: bolder;
 }
 
-.button:hover {
+.gameButton:hover {
   border: 2px solid green;
   transform: rotate(360deg);
   transition-duration: .7s;
+}
 
+.btnClick{
+  border: 2px solid #695757;
 }
 
 .row {
